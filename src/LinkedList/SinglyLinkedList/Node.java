@@ -1,11 +1,11 @@
 package LinkedList.SinglyLinkedList;
 
 public class Node<T> {
-    T head;
-    Node<Integer> next;
+    T data;
+    Node<String> next;
 
-    public Node(T head) {
-        this.head = head;
+    public Node(T data) {
+        this.data = data;
         next = null;
     }
 }
